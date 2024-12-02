@@ -36,34 +36,3 @@ Execute o comando abaixo para instalar todas as dependências:
 ```bash
 pip install -r requirements.rtf
 
-
-### Passos para Execução
-Clone o Repositório
-
-git clone https://github.com/edermau/basedecaminhos
-cd basedecaminhos
-Pré-processamento da Base Execute o script process_base.py para processar a base de caminhos:
-
-python scripts/process_base.py
-Entrada: data/caminhos_brutos.json
-Saída: data/caminhos_processados.json
-Execução do Script com a Heurística Temporal Após o pré-processamento, utilize o script analyze_paths.py para aplicar a heurística temporal:
-
-python scripts/analyze_paths.py --interval 5
-Parâmetro --interval: Define o intervalo de tempo em minutos (padrão: 5 minutos).
-Configuração da Heurística Temporal
-Por padrão, o intervalo temporal é de 5 minutos, mas você pode ajustá-lo no script analyze_paths.py ou passar o parâmetro --interval ao executá-lo.
-
-### Exemplo com intervalo de 10 minutos:
-
-
-python scripts/analyze_paths.py --interval 10
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias, correções ou novos recursos.
-
-### Licença
-
-Este projeto está licenciado sob a MIT License. Consulte o arquivo de licença para mais detalhes.
-
-### Autor
-Desenvolvido por Eder Mauricio Barbosa Para dúvidas ou sugestões, entre em contato pelo repositório ou pelo e-mail disponível no perfil do autor.
