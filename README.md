@@ -90,17 +90,13 @@ Exemplo de Execução
 Certifique-se de que o arquivo de caminhos (base_de_caminhos9.xlsx) foi gerado previamente e está localizado no caminho correto.
 
 # Caminho do arquivo de entrada (base de caminhos gerada previamente)
-caminhos_file_path = '/Users/emau/Documents/base_de_caminhos9.xlsx'
+caminhos_file_path = '/tmp/base_de_caminhos9.xlsx'
 
 # Caminho do arquivo de saída (base O-D)
-od_output_file_path = '/Users/emau/Documents/base_origem_destino.xlsx'
+od_output_file_path = '/tmp/base_origem_destino.xlsx'
 
 # Executar o script
 create_origin_destination_base(caminhos_file_path, od_output_file_path)
-
-Observações
-Este script deve ser executado após a criação da base de caminhos, no repositorio tem um arquivo de base de caminhos.
-Certifique-se de que os arquivos Excel possuem a estrutura de dados correta antes de executar o script.
 
 # Contribuição
 Sinta-se à vontade para contribuir com este projeto através de pull requests. Qualquer sugestão ou melhoria é bem-vinda!
