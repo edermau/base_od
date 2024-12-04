@@ -14,7 +14,7 @@ A análise principal utiliza uma **heurística temporal** com intervalos de 5 mi
 
 Certifique-se de que as seguintes ferramentas estão instaladas no seu ambiente:
 
-- **Python 3.12 ou superior**.
+- **Python 3.x ou superior**.
 - Dependências:
   - `pandas`
   - `openpyxl`
